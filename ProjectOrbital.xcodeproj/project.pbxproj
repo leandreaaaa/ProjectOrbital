@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0806A22A68DF90007CDA04 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 3D0806A12A68DF90007CDA04 /* Fonts */; };
+		3D0806A62A68E40E007CDA04 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0806A52A68E40E007CDA04 /* ImagePicker.swift */; };
+		3D081A3D2A67B2B000D91515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D081A3C2A67B2B000D91515 /* AppDelegate.swift */; };
+		3D5EB8022A669EFB0081FBE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EB8012A669EFB0081FBE7 /* GoogleService-Info.plist */; };
+		3D86FB242A68F85F006B10AE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86FB232A68F85E006B10AE /* ForgotPasswordView.swift */; };
+		3D86FB272A690048006B10AE /* JournallingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86FB262A690048006B10AE /* JournallingParentView.swift */; };
+		3D86FB2C2A6A2BC4006B10AE /* meditationvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */; };
+		3D86FB2E2A6A3046006B10AE /* breathingexercise.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */; };
+		3D86FB302A6A3073006B10AE /* morningstretches.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */; };
+		3D86FB322A6A3092006B10AE /* yogamovement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB312A6A3092006B10AE /* yogamovement.mp4 */; };
+		3D9ED6A32A666A3900BAB06C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED6A22A666A3900BAB06C /* SignUpView.swift */; };
+		3DB652352A6151DF0072F053 /* ProjectOrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652342A6151DF0072F053 /* ProjectOrbitalApp.swift */; };
+		3DB652392A6151E10072F053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB652382A6151E10072F053 /* Assets.xcassets */; };
+		3DB6523C2A6151E10072F053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6523B2A6151E10072F053 /* Preview Assets.xcassets */; };
+		3DB652522A6151F90072F053 /* JournallingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652432A6151F80072F053 /* JournallingView.swift */; };
+		3DB652542A6151F90072F053 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652452A6151F80072F053 /* EditProfileView.swift */; };
+		3DB652552A6151F90072F053 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652462A6151F80072F053 /* ProfileView.swift */; };
+		3DB652562A6151F90072F053 /* StudySessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652472A6151F80072F053 /* StudySessionsView.swift */; };
+		3DB652572A6151F90072F053 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652482A6151F80072F053 /* HomeView.swift */; };
+		3DB6525A2A6151F90072F053 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524B2A6151F80072F053 /* SignInView.swift */; };
+		3DB6525B2A6151F90072F053 /* MView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524C2A6151F80072F053 /* MView.swift */; };
+		3DB6525D2A6151F90072F053 /* MoodTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524E2A6151F80072F053 /* MoodTrackerView.swift */; };
+		3DB6525E2A6151F90072F053 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524F2A6151F80072F053 /* OnboardingView.swift */; };
+		3DB652602A6151F90072F053 /* MoodAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652512A6151F80072F053 /* MoodAnalysisView.swift */; };
+		3DB652632A61521C0072F053 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB652622A61521C0072F053 /* RiveRuntime */; };
+		3DB652662A6152440072F053 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB652652A6152440072F053 /* SwiftUI.framework */; };
+		3DB652692A6152670072F053 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB652682A6152670072F053 /* SwiftUICharts */; };
+		3DB652752A6152A30072F053 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652722A6152A30072F053 /* Extensions.swift */; };
+		3DB652762A6152A30072F053 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652732A6152A30072F053 /* CustomTextField.swift */; };
+		3DB652772A6152A30072F053 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652742A6152A30072F053 /* CustomFont.swift */; };
+		3DB652802A6152A90072F053 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB652792A6152A90072F053 /* house.riv */; };
+		3DB652812A6152A90072F053 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6527A2A6152A90072F053 /* confetti.riv */; };
+		3DB652822A6152A90072F053 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6527B2A6152A90072F053 /* check.riv */; };
+		3DB652832A6152A90072F053 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6527C2A6152A90072F053 /* menu_button.riv */; };
+		3DB652842A6152A90072F053 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6527D2A6152A90072F053 /* shapes.riv */; };
+		3DB652852A6152A90072F053 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6527E2A6152A90072F053 /* button.riv */; };
+		3DB652862A6152A90072F053 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6527F2A6152A90072F053 /* icons.riv */; };
+		3DB6528D2A6152CE0072F053 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652892A6152CD0072F053 /* VCard.swift */; };
+		3DB6528E2A6152CE0072F053 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6528A2A6152CD0072F053 /* HCard.swift */; };
+		3DB6528F2A6152CE0072F053 /* MusicSectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6528B2A6152CD0072F053 /* MusicSectionCard.swift */; };
+		3DB652902A6152CE0072F053 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6528C2A6152CD0072F053 /* MenuRow.swift */; };
+		3DB652962A6152D30072F053 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652922A6152D30072F053 /* TabBar.swift */; };
+		3DB652972A6152D30072F053 /* NotificationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652932A6152D30072F053 /* NotificationBar.swift */; };
+		3DB652982A6152D30072F053 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652942A6152D30072F053 /* SideMenu.swift */; };
+		3DB6529F2A6153470072F053 /* ActivitiesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6529A2A6153460072F053 /* ActivitiesSection.swift */; };
+		3DB652A02A6153470072F053 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6529B2A6153460072F053 /* Course.swift */; };
+		3DB652A12A6153470072F053 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6529C2A6153470072F053 /* CourseSection.swift */; };
+		3DB652A22A6153470072F053 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6529D2A6153470072F053 /* Music.swift */; };
+		3DB652A32A6153470072F053 /* MusicSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6529E2A6153470072F053 /* MusicSection.swift */; };
+		3DB652A92A6153B80072F053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652A82A6153B80072F053 /* ContentView.swift */; };
+		3DB652AE2A6153F70072F053 /* ManagingAnxietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652AD2A6153F70072F053 /* ManagingAnxietyView.swift */; };
+		3DB652B02A6155030072F053 /* MoodInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652AF2A6155030072F053 /* MoodInsightsView.swift */; };
+		3DB652B42A61B0910072F053 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652B32A61B0910072F053 /* ChatView.swift */; };
+		3DB652B62A61B23F0072F053 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652B52A61B23F0072F053 /* ResultsView.swift */; };
+		3DB652BA2A61B29F0072F053 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652B92A61B29F0072F053 /* ChallengesView.swift */; };
+		3DB652BE2A61B2D40072F053 /* ActivityPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */; };
+		3DB652C02A626F880072F053 /* JournalHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652BF2A626F870072F053 /* JournalHistoryView.swift */; };
+		3DEC1E3B2A67E73200C769EB /* audio calming.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */; };
+		3DEC1E3F2A68470C00C769EB /* audio relief.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */; };
+		3DEC1E402A68470C00C769EB /* audio classical.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */; };
+		3DF8AFD12A6A5E5000033E7C /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8AFD02A6A5E5000033E7C /* HomeView2.swift */; };
+		C1489AAF8F19B6EC53277384 /* Pods_ProjectOrbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB64D57BB8041BF01004266C /* Pods_ProjectOrbital.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF90F1CEBEE97FCB3E2C770 /* Pods-ProjectOrbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOrbital.release.xcconfig"; path = "Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital.release.xcconfig"; sourceTree = "<group>"; };
+		307BFAE0180B0C534B60698B /* Pods-ProjectOrbital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOrbital.debug.xcconfig"; path = "Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0806A12A68DF90007CDA04 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ProjectOrbital/Fonts; sourceTree = "<group>"; };
+		3D0806A52A68E40E007CDA04 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3D081A3C2A67B2B000D91515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5EB8012A669EFB0081FBE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D86FB232A68F85E006B10AE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		3D86FB262A690048006B10AE /* JournallingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournallingParentView.swift; sourceTree = "<group>"; };
+		3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meditationvideo.mp4; sourceTree = "<group>"; };
+		3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = breathingexercise.mp4; sourceTree = "<group>"; };
+		3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = morningstretches.mp4; sourceTree = "<group>"; };
+		3D86FB312A6A3092006B10AE /* yogamovement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yogamovement.mp4; sourceTree = "<group>"; };
+		3D9ED6A22A666A3900BAB06C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = "../New Group3/SignUpView.swift"; sourceTree = "<group>"; };
+		3DB652312A6151DF0072F053 /* ProjectOrbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOrbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB652342A6151DF0072F053 /* ProjectOrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOrbitalApp.swift; sourceTree = "<group>"; };
+		3DB652382A6151E10072F053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB6523B2A6151E10072F053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DB652432A6151F80072F053 /* JournallingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JournallingView.swift; path = "../New Group1/JournallingView.swift"; sourceTree = "<group>"; };
+		3DB652452A6151F80072F053 /* EditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		3DB652462A6151F80072F053 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3DB652472A6151F80072F053 /* StudySessionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudySessionsView.swift; sourceTree = "<group>"; };
+		3DB652482A6151F80072F053 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3DB6524B2A6151F80072F053 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = "../New Group3/SignInView.swift"; sourceTree = "<group>"; };
+		3DB6524C2A6151F80072F053 /* MView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MView.swift; path = ../MView.swift; sourceTree = "<group>"; };
+		3DB6524E2A6151F80072F053 /* MoodTrackerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodTrackerView.swift; path = ../MoodTrackerView.swift; sourceTree = "<group>"; };
+		3DB6524F2A6151F80072F053 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3DB652512A6151F80072F053 /* MoodAnalysisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodAnalysisView.swift; path = ../MoodAnalysisView.swift; sourceTree = "<group>"; };
+		3DB652652A6152440072F053 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3DB652722A6152A30072F053 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3DB652732A6152A30072F053 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3DB652742A6152A30072F053 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		3DB652792A6152A90072F053 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		3DB6527A2A6152A90072F053 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		3DB6527B2A6152A90072F053 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		3DB6527C2A6152A90072F053 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		3DB6527D2A6152A90072F053 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		3DB6527E2A6152A90072F053 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		3DB6527F2A6152A90072F053 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		3DB652892A6152CD0072F053 /* VCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		3DB6528A2A6152CD0072F053 /* HCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		3DB6528B2A6152CD0072F053 /* MusicSectionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSectionCard.swift; sourceTree = "<group>"; };
+		3DB6528C2A6152CD0072F053 /* MenuRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		3DB652922A6152D30072F053 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		3DB652932A6152D30072F053 /* NotificationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBar.swift; sourceTree = "<group>"; };
+		3DB652942A6152D30072F053 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		3DB6529A2A6153460072F053 /* ActivitiesSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesSection.swift; sourceTree = "<group>"; };
+		3DB6529B2A6153460072F053 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		3DB6529C2A6153470072F053 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		3DB6529D2A6153470072F053 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		3DB6529E2A6153470072F053 /* MusicSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSection.swift; sourceTree = "<group>"; };
+		3DB652A42A61538F0072F053 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../.Trash/ContentView.swift; sourceTree = "<group>"; };
+		3DB652A62A6153A50072F053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DB652A82A6153B80072F053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DB652AD2A6153F70072F053 /* ManagingAnxietyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagingAnxietyView.swift; sourceTree = "<group>"; };
+		3DB652AF2A6155030072F053 /* MoodInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoodInsightsView.swift; path = "../New Group2/MoodInsightsView.swift"; sourceTree = "<group>"; };
+		3DB652B32A61B0910072F053 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		3DB652B52A61B23F0072F053 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultsView.swift; path = "../New Group/ResultsView.swift"; sourceTree = "<group>"; };
+		3DB652B92A61B29F0072F053 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityPageView.swift; path = "../New Group/ActivityPageView.swift"; sourceTree = "<group>"; };
+		3DB652BF2A626F870072F053 /* JournalHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHistoryView.swift; sourceTree = "<group>"; };
+		3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio calming.mp4"; sourceTree = "<group>"; };
+		3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio relief.mp4"; sourceTree = "<group>"; };
+		3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio classical.mp4"; sourceTree = "<group>"; };
+		3DF8AFD02A6A5E5000033E7C /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
+		EB64D57BB8041BF01004266C /* Pods_ProjectOrbital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectOrbital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB6522E2A6151DF0072F053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB652692A6152670072F053 /* SwiftUICharts in Frameworks */,
+				3DB652662A6152440072F053 /* SwiftUI.framework in Frameworks */,
+				3DB652632A61521C0072F053 /* RiveRuntime in Frameworks */,
+				C1489AAF8F19B6EC53277384 /* Pods_ProjectOrbital.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D424CDC2A68CC0A00DD3117 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		3D86FB252A690030006B10AE /* Journalling */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652432A6151F80072F053 /* JournallingView.swift */,
+				3DB652BF2A626F870072F053 /* JournalHistoryView.swift */,
+				3D86FB262A690048006B10AE /* JournallingParentView.swift */,
+			);
+			path = Journalling;
+			sourceTree = "<group>";
+		};
+		3D86FB282A699D64006B10AE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652462A6151F80072F053 /* ProfileView.swift */,
+				3DB652452A6151F80072F053 /* EditProfileView.swift */,
+				3D86FB232A68F85E006B10AE /* ForgotPasswordView.swift */,
+				3D0806A52A68E40E007CDA04 /* ImagePicker.swift */,
+				3DB652B52A61B23F0072F053 /* ResultsView.swift */,
+				3DB652B92A61B29F0072F053 /* ChallengesView.swift */,
+			);
+			name = Profile;
+			path = Journalling/Profile;
+			sourceTree = "<group>";
+		};
+		3D86FB292A699DBA006B10AE /* Mood Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652AF2A6155030072F053 /* MoodInsightsView.swift */,
+				3DB652512A6151F80072F053 /* MoodAnalysisView.swift */,
+				3DB6524E2A6151F80072F053 /* MoodTrackerView.swift */,
+			);
+			path = "Mood Tracker";
+			sourceTree = "<group>";
+		};
+		3D86FB2A2A699DDD006B10AE /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				3D9ED6A22A666A3900BAB06C /* SignUpView.swift */,
+				3DB6524B2A6151F80072F053 /* SignInView.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		3DB652282A6151DF0072F053 = {
+			isa = PBXGroup;
+			children = (
+				3D0806A12A68DF90007CDA04 /* Fonts */,
+				3DB652332A6151DF0072F053 /* ProjectOrbital */,
+				3DB652322A6151DF0072F053 /* Products */,
+				3DB652642A6152440072F053 /* Frameworks */,
+				65FE79A453EFCD194CC0AD5E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB652322A6151DF0072F053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652312A6151DF0072F053 /* ProjectOrbital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB652332A6151DF0072F053 /* ProjectOrbital */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */,
+				3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */,
+				3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */,
+				3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */,
+				3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */,
+				3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */,
+				3D86FB312A6A3092006B10AE /* yogamovement.mp4 */,
+				3D5EB8012A669EFB0081FBE7 /* GoogleService-Info.plist */,
+				3DB652AC2A6153F70072F053 /* Smaller Views */,
+				3DB652342A6151DF0072F053 /* ProjectOrbitalApp.swift */,
+				3DB652A62A6153A50072F053 /* ContentView.swift */,
+				3DB652912A6152D30072F053 /* Navigation */,
+				3DB652882A6152CD0072F053 /* Components */,
+				3DB652872A6152C50072F053 /* Model */,
+				3DB652782A6152A90072F053 /* RiveAssets */,
+				3DB652712A6152A30072F053 /* Styles */,
+				3DB652422A6151F80072F053 /* Views */,
+				3DB652382A6151E10072F053 /* Assets.xcassets */,
+				3DB6523A2A6151E10072F053 /* Preview Content */,
+				3D081A3C2A67B2B000D91515 /* AppDelegate.swift */,
+			);
+			path = ProjectOrbital;
+			sourceTree = "<group>";
+		};
+		3DB6523A2A6151E10072F053 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DB6523B2A6151E10072F053 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DB652422A6151F80072F053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DB6524F2A6151F80072F053 /* OnboardingView.swift */,
+				3D86FB2A2A699DDD006B10AE /* Sign Up */,
+				3DB652482A6151F80072F053 /* HomeView.swift */,
+				3DF8AFD02A6A5E5000033E7C /* HomeView2.swift */,
+				3D86FB252A690030006B10AE /* Journalling */,
+				3DB652B32A61B0910072F053 /* ChatView.swift */,
+				3D86FB282A699D64006B10AE /* Profile */,
+				3D86FB292A699DBA006B10AE /* Mood Tracker */,
+				3D424CDC2A68CC0A00DD3117 /* Activity */,
+				3DEC1E3C2A67E77200C769EB /* Music */,
+			);
+			name = Views;
+			path = ../../Project/Project/Views;
+			sourceTree = "<group>";
+		};
+		3DB652642A6152440072F053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652A42A61538F0072F053 /* ContentView.swift */,
+				3DB652652A6152440072F053 /* SwiftUI.framework */,
+				EB64D57BB8041BF01004266C /* Pods_ProjectOrbital.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DB652712A6152A30072F053 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652722A6152A30072F053 /* Extensions.swift */,
+				3DB652732A6152A30072F053 /* CustomTextField.swift */,
+				3DB652742A6152A30072F053 /* CustomFont.swift */,
+			);
+			name = Styles;
+			path = ../../Project/Project/Styles;
+			sourceTree = "<group>";
+		};
+		3DB652782A6152A90072F053 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652792A6152A90072F053 /* house.riv */,
+				3DB6527A2A6152A90072F053 /* confetti.riv */,
+				3DB6527B2A6152A90072F053 /* check.riv */,
+				3DB6527C2A6152A90072F053 /* menu_button.riv */,
+				3DB6527D2A6152A90072F053 /* shapes.riv */,
+				3DB6527E2A6152A90072F053 /* button.riv */,
+				3DB6527F2A6152A90072F053 /* icons.riv */,
+			);
+			name = RiveAssets;
+			path = ../../Project/Project/RiveAssets;
+			sourceTree = "<group>";
+		};
+		3DB652872A6152C50072F053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DB6529A2A6153460072F053 /* ActivitiesSection.swift */,
+				3DB6529B2A6153460072F053 /* Course.swift */,
+				3DB6529C2A6153470072F053 /* CourseSection.swift */,
+				3DB6529D2A6153470072F053 /* Music.swift */,
+				3DB6529E2A6153470072F053 /* MusicSection.swift */,
+			);
+			name = Model;
+			path = ../../Project/Project/Model;
+			sourceTree = "<group>";
+		};
+		3DB652882A6152CD0072F053 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652892A6152CD0072F053 /* VCard.swift */,
+				3DB6528A2A6152CD0072F053 /* HCard.swift */,
+				3DB6528B2A6152CD0072F053 /* MusicSectionCard.swift */,
+				3DB6528C2A6152CD0072F053 /* MenuRow.swift */,
+			);
+			name = Components;
+			path = ../../Project/Project/Components;
+			sourceTree = "<group>";
+		};
+		3DB652912A6152D30072F053 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652922A6152D30072F053 /* TabBar.swift */,
+				3DB652932A6152D30072F053 /* NotificationBar.swift */,
+				3DB652942A6152D30072F053 /* SideMenu.swift */,
+				3DB652A82A6153B80072F053 /* ContentView.swift */,
+			);
+			name = Navigation;
+			path = ../../Project/Project/Navigation;
+			sourceTree = "<group>";
+		};
+		3DB652AC2A6153F70072F053 /* Smaller Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DB652AD2A6153F70072F053 /* ManagingAnxietyView.swift */,
+			);
+			name = "Smaller Views";
+			path = "../../Project/Project/Smaller Views";
+			sourceTree = "<group>";
+		};
+		3DEC1E3C2A67E77200C769EB /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3DB6524C2A6151F80072F053 /* MView.swift */,
+				3DB652472A6151F80072F053 /* StudySessionsView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		65FE79A453EFCD194CC0AD5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				307BFAE0180B0C534B60698B /* Pods-ProjectOrbital.debug.xcconfig */,
+				2AF90F1CEBEE97FCB3E2C770 /* Pods-ProjectOrbital.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB652302A6151DF0072F053 /* ProjectOrbital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB6523F2A6151E10072F053 /* Build configuration list for PBXNativeTarget "ProjectOrbital" */;
+			buildPhases = (
+				39360B5ED9B812A5D14D0083 /* [CP] Check Pods Manifest.lock */,
+				3DB6522D2A6151DF0072F053 /* Sources */,
+				3DB6522E2A6151DF0072F053 /* Frameworks */,
+				3DB6522F2A6151DF0072F053 /* Resources */,
+				CA39551436CC8AEEC04453F2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectOrbital;
+			packageProductDependencies = (
+				3DB652622A61521C0072F053 /* RiveRuntime */,
+				3DB652682A6152670072F053 /* SwiftUICharts */,
+			);
+			productName = ProjectOrbital;
+			productReference = 3DB652312A6151DF0072F053 /* ProjectOrbital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB652292A6151DF0072F053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3DB652302A6151DF0072F053 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 3DB6522C2A6151DF0072F053 /* Build configuration list for PBXProject "ProjectOrbital" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB652282A6151DF0072F053;
+			packageReferences = (
+				3DB652612A61521C0072F053 /* XCRemoteSwiftPackageReference "rive-ios" */,
+				3DB652672A6152670072F053 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 3DB652322A6151DF0072F053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB652302A6151DF0072F053 /* ProjectOrbital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB6522F2A6151DF0072F053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D86FB2E2A6A3046006B10AE /* breathingexercise.mp4 in Resources */,
+				3D5EB8022A669EFB0081FBE7 /* GoogleService-Info.plist in Resources */,
+				3DEC1E3B2A67E73200C769EB /* audio calming.mp4 in Resources */,
+				3DB6523C2A6151E10072F053 /* Preview Assets.xcassets in Resources */,
+				3DEC1E402A68470C00C769EB /* audio classical.mp4 in Resources */,
+				3DB652392A6151E10072F053 /* Assets.xcassets in Resources */,
+				3D0806A22A68DF90007CDA04 /* Fonts in Resources */,
+				3DB652812A6152A90072F053 /* confetti.riv in Resources */,
+				3D86FB2C2A6A2BC4006B10AE /* meditationvideo.mp4 in Resources */,
+				3DB652842A6152A90072F053 /* shapes.riv in Resources */,
+				3D86FB322A6A3092006B10AE /* yogamovement.mp4 in Resources */,
+				3D86FB302A6A3073006B10AE /* morningstretches.mp4 in Resources */,
+				3DB652802A6152A90072F053 /* house.riv in Resources */,
+				3DB652822A6152A90072F053 /* check.riv in Resources */,
+				3DEC1E3F2A68470C00C769EB /* audio relief.mp4 in Resources */,
+				3DB652862A6152A90072F053 /* icons.riv in Resources */,
+				3DB652832A6152A90072F053 /* menu_button.riv in Resources */,
+				3DB652852A6152A90072F053 /* button.riv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39360B5ED9B812A5D14D0083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectOrbital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA39551436CC8AEEC04453F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB6522D2A6151DF0072F053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0806A62A68E40E007CDA04 /* ImagePicker.swift in Sources */,
+				3DB652BA2A61B29F0072F053 /* ChallengesView.swift in Sources */,
+				3DB652542A6151F90072F053 /* EditProfileView.swift in Sources */,
+				3DB652752A6152A30072F053 /* Extensions.swift in Sources */,
+				3DB652982A6152D30072F053 /* SideMenu.swift in Sources */,
+				3DB652B42A61B0910072F053 /* ChatView.swift in Sources */,
+				3DB6525E2A6151F90072F053 /* OnboardingView.swift in Sources */,
+				3DB652A22A6153470072F053 /* Music.swift in Sources */,
+				3DB652902A6152CE0072F053 /* MenuRow.swift in Sources */,
+				3DB652772A6152A30072F053 /* CustomFont.swift in Sources */,
+				3DB6528F2A6152CE0072F053 /* MusicSectionCard.swift in Sources */,
+				3DF8AFD12A6A5E5000033E7C /* HomeView2.swift in Sources */,
+				3DB6529F2A6153470072F053 /* ActivitiesSection.swift in Sources */,
+				3DB652762A6152A30072F053 /* CustomTextField.swift in Sources */,
+				3DB652A02A6153470072F053 /* Course.swift in Sources */,
+				3D081A3D2A67B2B000D91515 /* AppDelegate.swift in Sources */,
+				3DB652602A6151F90072F053 /* MoodAnalysisView.swift in Sources */,
+				3D86FB272A690048006B10AE /* JournallingParentView.swift in Sources */,
+				3DB652522A6151F90072F053 /* JournallingView.swift in Sources */,
+				3D86FB242A68F85F006B10AE /* ForgotPasswordView.swift in Sources */,
+				3DB652B62A61B23F0072F053 /* ResultsView.swift in Sources */,
+				3D9ED6A32A666A3900BAB06C /* SignUpView.swift in Sources */,
+				3DB6528D2A6152CE0072F053 /* VCard.swift in Sources */,
+				3DB652A12A6153470072F053 /* CourseSection.swift in Sources */,
+				3DB652352A6151DF0072F053 /* ProjectOrbitalApp.swift in Sources */,
+				3DB6525B2A6151F90072F053 /* MView.swift in Sources */,
+				3DB652552A6151F90072F053 /* ProfileView.swift in Sources */,
+				3DB6528E2A6152CE0072F053 /* HCard.swift in Sources */,
+				3DB652BE2A61B2D40072F053 /* ActivityPageView.swift in Sources */,
+				3DB652AE2A6153F70072F053 /* ManagingAnxietyView.swift in Sources */,
+				3DB652A92A6153B80072F053 /* ContentView.swift in Sources */,
+				3DB652A32A6153470072F053 /* MusicSection.swift in Sources */,
+				3DB652C02A626F880072F053 /* JournalHistoryView.swift in Sources */,
+				3DB652572A6151F90072F053 /* HomeView.swift in Sources */,
+				3DB652962A6152D30072F053 /* TabBar.swift in Sources */,
+				3DB6525A2A6151F90072F053 /* SignInView.swift in Sources */,
+				3DB6525D2A6151F90072F053 /* MoodTrackerView.swift in Sources */,
+				3DB652972A6152D30072F053 /* NotificationBar.swift in Sources */,
+				3DB652B02A6155030072F053 /* MoodInsightsView.swift in Sources */,
+				3DB652562A6151F90072F053 /* StudySessionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DB6523D2A6151E10072F053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DB6523E2A6151E10072F053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB652402A6151E10072F053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307BFAE0180B0C534B60698B /* Pods-ProjectOrbital.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectOrbital/Preview Content\"";
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.ProjectOrbital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB652412A6151E10072F053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF90F1CEBEE97FCB3E2C770 /* Pods-ProjectOrbital.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectOrbital/Preview Content\"";
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.ProjectOrbital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB6522C2A6151DF0072F053 /* Build configuration list for PBXProject "ProjectOrbital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB6523D2A6151E10072F053 /* Debug */,
+				3DB6523E2A6151E10072F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB6523F2A6151E10072F053 /* Build configuration list for PBXNativeTarget "ProjectOrbital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB652402A6151E10072F053 /* Debug */,
+				3DB652412A6151E10072F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DB652612A61521C0072F053 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		3DB652672A6152670072F053 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DB652622A61521C0072F053 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB652612A61521C0072F053 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+		3DB652682A6152670072F053 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB652672A6152670072F053 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DB652292A6151DF0072F053 /* Project object */;
+}
