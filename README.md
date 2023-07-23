@@ -2,11 +2,11 @@
 
 <img width="210" alt="happytownlogo" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8b8c4dcc-c649-4ab8-8e0a-bec9cdfda56b">
 
-Team Members:   
+## Team Members:   
 De Conceicao Leandrea Jade  
 Barbara Chong
 
-Proposed Level of Achievement: Apollo 11
+## Proposed Level of Achievement: Apollo 11
 
 # Introducing HappyTown
 Welcome to HappyTown, an iOS application meticulously crafted to enhance the mental wellness journey for students, inspiring them to cultivate positive habits and prioritize their mental health with joy and enthusiasm. 
@@ -14,11 +14,9 @@ Welcome to HappyTown, an iOS application meticulously crafted to enhance the men
 Our app is specifically designed for iOS devices and has been developed using Xcode and Firebase, leveraging the power of SwiftUI, an intuitive programming language.
 
 # Links to resources
-Milestone 3: https://docs.google.com/document/d/1jcKI_sMhuZCCF0r06glqSu3sAmZaY6Wu8afR5ReSeZM/edit?usp=sharing
-
-Project Poster: https://drive.google.com/file/d/11r2aWth3-J55wcyJu8yDRdBH-VfEiLfP/view?usp=sharing
-
-Project Video: 
+- Milestone 3: [Google Docs](https://docs.google.com/document/d/1jcKI_sMhuZCCF0r06glqSu3sAmZaY6Wu8afR5ReSeZM/edit?usp=sharing)
+- Project Poster: [Google Drive](https://drive.google.com/file/d/11r2aWth3-J55wcyJu8yDRdBH-VfEiLfP/view?usp=sharing)
+- Project Video: (To be added)
 
 # Motivation
 Our motivation for embarking on this project stems from a shared desire to provide students with a safe and accessible space to prioritize their well-being. We envision our app as a sanctuary of solace, offering practical tools and resources to promote relaxation, mindfulness, and emotional resilience. As we embark on this project, we are committed to creating an intuitive and user-friendly app that resonates with students and encourages them to prioritize their mental health. 
@@ -42,7 +40,7 @@ To ensure a smooth installation and testing process, please make sure you have t
 # Installation Guide
 Follow the steps below to install and set up ProjectOrbital:
 
-1. Clone the ProjectOrbital repository from GitHub: git clone https://github.com/leandreaaaa/ProjectOrbital.git
+1. Clone the ProjectOrbital repository from GitHub: `git clone https://github.com/leandreaaaa/ProjectOrbital.git`
 2. Type into terminal:
 cd ProjectOrbital
 pod install
@@ -50,12 +48,12 @@ pod install
 4. Build the app
 
 # Testing the App
-Once ProjectOrbital is successfully built and running on your iOS device, test its functionality
+Once ProjectOrbital is successfully built and running on your iOS device, test its functionality:
 
 - App Navigation
 - Input Validation
 - Feature Functionality
-
+  
 # Sample Screenshots:
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/0c57dcf4-a523-4238-8bdc-35cc2cc2e16d" alt="photo_6192960851191903648_y" width="300">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/fa5dd78d-1cc6-40a0-a161-dbdeab537729" alt="photo_6192960851191903662_x" width="300">
