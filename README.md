@@ -1,6 +1,9 @@
+<div align="center">
 # NUS Orbital 2023 (Team HappyTown)
 
-<img width="270" alt="happytownlogo" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8b8c4dcc-c649-4ab8-8e0a-bec9cdfda56b">
+<div align="center">
+    <img width="270" alt="happytownlogo" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8b8c4dcc-c649-4ab8-8e0a-bec9cdfda56b">
+</div>
 
 ## Team Members:   
 De Conceicao Leandrea Jade  
