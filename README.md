@@ -15,11 +15,12 @@ Our app is specifically designed for iOS devices and has been developed using Xc
 De Conceicao Leandrea Jade  
 Barbara Chong
 
-## Proposed Level of Achievement: Apollo 11
+## Proposed Level of Achievement: 
+Apollo 11
 
 ## Links to resources
 - Milestone 3: [Google Docs](https://docs.google.com/document/d/1jcKI_sMhuZCCF0r06glqSu3sAmZaY6Wu8afR5ReSeZM/edit?usp=sharing)
-- Project Poster: [Google Drive](https://drive.google.com/file/d/11r2aWth3-J55wcyJu8yDRdBH-VfEiLfP/view?usp=sharing)
+- Project Poster: [Google Drive](https://drive.google.com/file/d/14ahgQY0u5My9s3ueFYAgAQNTnVLSAQql/view?usp=sharing)
 - Project Video: (To be added)
 
 ## Motivation
