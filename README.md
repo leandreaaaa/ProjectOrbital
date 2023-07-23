@@ -1,6 +1,6 @@
 # NUS Orbital 2023 (Team HappyTown)
 
-<img width="210" alt="happytownlogo" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8b8c4dcc-c649-4ab8-8e0a-bec9cdfda56b">
+<img width="270" alt="happytownlogo" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8b8c4dcc-c649-4ab8-8e0a-bec9cdfda56b">
 
 ## Team Members:   
 De Conceicao Leandrea Jade  
@@ -57,10 +57,11 @@ Once ProjectOrbital is successfully built and running on your iOS device, test i
 # Sample Screenshots:
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/0c57dcf4-a523-4238-8bdc-35cc2cc2e16d" alt="photo_6192960851191903648_y" width="300">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/fa5dd78d-1cc6-40a0-a161-dbdeab537729" alt="photo_6192960851191903662_x" width="300">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8dd963ed-d818-468d-9d4a-b0c18a25122f" alt="photo_6192960851191903649_y" width="300">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/0ebec95d-e552-46f9-982a-7666c6953476" alt="photo_6192960851191903646_y" width="300">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/90378aef-9e97-4c45-b999-89c414925d5f" alt="photo_6192960851191903647_y" width="300">
-<img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/910df4c2-b86c-4468-b83a-6e324c118f45" alt="photo_6192960851191903650_y" width="300">
-<img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/6371db1d-82f6-4967-a5ba-e74132a25e73" alt="photo_6192960851191903661_x" width="300">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/c1c72f53-0353-4597-b886-d4dc43872ed5" alt="photo_6192960851191903664_x" width="300">
-<img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8dd963ed-d818-468d-9d4a-b0c18a25122f" alt="photo_6192960851191903649_y" width="300">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/6371db1d-82f6-4967-a5ba-e74132a25e73" alt="photo_6192960851191903661_x" width="300">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/910df4c2-b86c-4468-b83a-6e324c118f45" alt="photo_6192960851191903650_y" width="300">
+
 
