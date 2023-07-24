@@ -51,18 +51,9 @@ cd ProjectOrbital
 pod install
 3. Go to the folder (use Finder) => ProjectOrbital => open ProjectOrbital.xcworkspace
 4. Update the podfile in your mac terminal 
-5. Type into terminal:
-   open podfile
-   add the following pods in:
-     a. pod 'Firebase'
-     b. pod 'Firebase/Auth'
-     c. pod 'Firebase/Core'
-     d. pod 'Firebase/Firestore'
-     e. pod 'Firebase/AppDistribution'
-   then save the changes and run pod install
-   close terminal and quit xcode. Go to your project folder and open xcworkspace file
-
-6.  Build the app
+5. Type into terminal, 'open podfile', add the following pods in: pod 'Firebase', pod 'Firebase/Auth', pod 'Firebase/Core', pod 'Firebase/Firestore', pod 'Firebase/AppDistribution'
+6. then save the changes and run pod install. close terminal and quit xcode. Go to your project folder and open xcworkspace file
+7.  Build the app
 
 ## Testing the App
 Once ProjectOrbital is successfully built and running on your iOS device, test its functionality:
