@@ -21,7 +21,7 @@ Apollo 11
 ## Links to resources
 - Milestone 3: [Google Docs](https://docs.google.com/document/d/1jcKI_sMhuZCCF0r06glqSu3sAmZaY6Wu8afR5ReSeZM/edit?usp=sharing)
 - Project Poster: [Google Drive](https://drive.google.com/file/d/14ahgQY0u5My9s3ueFYAgAQNTnVLSAQql/view?usp=sharing)
-- Project Video: [(To be added)](https://drive.google.com/file/d/1I_mge3i-cLPVkPMEUaHqOfPmYFixK25y/view)
+- Project Video: [Google Drive](https://drive.google.com/file/d/1I_mge3i-cLPVkPMEUaHqOfPmYFixK25y/view)
 
 ## Motivation
 Our motivation for embarking on this project stems from a shared desire to provide students with a safe and accessible space to prioritize their well-being. We envision our app as a sanctuary of solace, offering practical tools and resources to promote relaxation, mindfulness, and emotional resilience. As we embark on this project, we are committed to creating an intuitive and user-friendly app that resonates with students and encourages them to prioritize their mental health. 
@@ -51,16 +51,16 @@ Follow the steps below to install and set up ProjectOrbital:
 cd ProjectOrbital
 pod init
 open podfile
-5. Add the following pods into the podfile:
+4. Add the following pods into the podfile:
 - pod 'Firebase'
 - pod 'Firebase/Auth'
 - pod 'Firebase/Core'
 - pod 'Firebase/Firestore'
-7. Press Command, S to save podfile
-8. Type 'pod install' in terminal
-9. Close terminal, quit xcode.
-10. Go to your project folder and open the xcworkspace file
-11. Run the app by pressing on the play button/Press Command, B to build the project
+5. Press Command, S to save podfile
+6. Type 'pod install' in terminal
+7. Close terminal, quit xcode.
+8. Go to your project folder and open the xcworkspace file
+9. Run the app by pressing on the play button/Press Command, B to build the project
 
 ## Testing the App
 Once ProjectOrbital is successfully built and running on your iOS device, test its functionality using the simulator:
