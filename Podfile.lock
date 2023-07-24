@@ -636,6 +636,9 @@ PODS:
   - BoringSSL-GRPC/Interface (0.0.24)
   - Firebase (10.11.0):
     - Firebase/Core (= 10.11.0)
+  - Firebase/AppDistribution (10.11.0):
+    - Firebase/CoreOnly
+    - FirebaseAppDistribution (~> 10.11.0-beta)
   - Firebase/Auth (10.11.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 10.11.0)
@@ -666,6 +669,11 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
   - FirebaseAppCheckInterop (10.11.0)
+  - FirebaseAppDistribution (10.11.0-beta):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
   - FirebaseAuth (10.11.0):
     - FirebaseAppCheckInterop (~> 10.0)
     - FirebaseCore (~> 10.0)
@@ -807,6 +815,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase
+  - Firebase/AppDistribution
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
@@ -818,6 +827,7 @@ SPEC REPOS:
     - Firebase
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
+    - FirebaseAppDistribution
     - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreInternal
@@ -838,6 +848,7 @@ SPEC CHECKSUMS:
   Firebase: 31d9575c124839fb5abc0db6d39511cc1dab1b85
   FirebaseAnalytics: 6c6bf99e8854475bf1fa342028841be8ecd236da
   FirebaseAppCheckInterop: 255b6c0292fe5da995c8b2df0c02f6a3ca7f61b4
+  FirebaseAppDistribution: 192195dfe33f95edad95ddc5d7a45ed39dfdf3c7
   FirebaseAuth: 7aabcb00fbf330db49c207c0d645b8b1b62df0e9
   FirebaseCore: 62fd4d549f5e3f3bd52b7998721c5fa0557fb355
   FirebaseCoreInternal: 9e46c82a14a3b3a25be4e1e151ce6d21536b89c0
@@ -852,6 +863,6 @@ SPEC CHECKSUMS:
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
 
-PODFILE CHECKSUM: 760905bfaaf0812e59ce94d39b4d4485118602d7
+PODFILE CHECKSUM: f316c56f1e02e90fefe1865e6f39831b66641ec4
 
 COCOAPODS: 1.12.1

@@ -18,6 +18,8 @@
 		3D86FB302A6A3073006B10AE /* morningstretches.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */; };
 		3D86FB322A6A3092006B10AE /* yogamovement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB312A6A3092006B10AE /* yogamovement.mp4 */; };
 		3D9ED6A32A666A3900BAB06C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED6A22A666A3900BAB06C /* SignUpView.swift */; };
+		3DA3394B2A6AFDBC00231BCB /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3394A2A6AFDBC00231BCB /* MusicView.swift */; };
+		3DA3394D2A6AFEFF00231BCB /* ActivityPage2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3394C2A6AFEFF00231BCB /* ActivityPage2View.swift */; };
 		3DB652352A6151DF0072F053 /* ProjectOrbitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652342A6151DF0072F053 /* ProjectOrbitalApp.swift */; };
 		3DB652392A6151E10072F053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB652382A6151E10072F053 /* Assets.xcassets */; };
 		3DB6523C2A6151E10072F053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6523B2A6151E10072F053 /* Preview Assets.xcassets */; };
@@ -64,12 +66,55 @@
 		3DB652BA2A61B29F0072F053 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652B92A61B29F0072F053 /* ChallengesView.swift */; };
 		3DB652BE2A61B2D40072F053 /* ActivityPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */; };
 		3DB652C02A626F880072F053 /* JournalHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652BF2A626F870072F053 /* JournalHistoryView.swift */; };
+		3DB7FEFF2A6DA3C900BD02D6 /* audio piano.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */; };
+		3DC3DF932A6DEC3000B9695F /* ProjectOrbitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3DF922A6DEC3000B9695F /* ProjectOrbitalTests.swift */; };
+		3DC3DF9A2A6DEFAC00B9695F /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF992A6DEFAC00B9695F /* FirebaseAnalytics.xcframework */; };
+		3DC3DF9C2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF9B2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework */; };
+		3DC3DF9E2A6DEFAC00B9695F /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF9D2A6DEFAC00B9695F /* FirebaseAuth.framework */; };
+		3DC3DFA02A6DEFAC00B9695F /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF9F2A6DEFAC00B9695F /* FirebaseCore.framework */; };
+		3DC3DFA22A6DEFAC00B9695F /* FirebaseCoreInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DFA12A6DEFAC00B9695F /* FirebaseCoreInternal.framework */; };
+		3DC3DFA42A6DEFAC00B9695F /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DFA32A6DEFAC00B9695F /* FirebaseFirestore.framework */; };
+		3DC3DFA62A6DEFAC00B9695F /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DFA52A6DEFAC00B9695F /* FirebaseInstallations.framework */; };
 		3DEC1E3B2A67E73200C769EB /* audio calming.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */; };
 		3DEC1E3F2A68470C00C769EB /* audio relief.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */; };
 		3DEC1E402A68470C00C769EB /* audio classical.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */; };
+		3DF5D7AB2A6DB22100322740 /* SoothingMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5D7AA2A6DB22100322740 /* SoothingMusicView.swift */; };
+		3DF5D7AD2A6DB56B00322740 /* ClassicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5D7AC2A6DB56B00322740 /* ClassicalView.swift */; };
+		3DF5D7B02A6DB66200322740 /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5D7AF2A6DB66200322740 /* PianoView.swift */; };
 		3DF8AFD12A6A5E5000033E7C /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8AFD02A6A5E5000033E7C /* HomeView2.swift */; };
 		C1489AAF8F19B6EC53277384 /* Pods_ProjectOrbital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB64D57BB8041BF01004266C /* Pods_ProjectOrbital.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC3DF6B2A6DE6C700B9695F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB652302A6151DF0072F053;
+			remoteInfo = ProjectOrbital;
+		};
+		3DC3DF782A6DE73E00B9695F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB652302A6151DF0072F053;
+			remoteInfo = ProjectOrbital;
+		};
+		3DC3DF852A6DE7CA00B9695F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB652302A6151DF0072F053;
+			remoteInfo = ProjectOrbital;
+		};
+		3DC3DF942A6DEC3000B9695F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB652302A6151DF0072F053;
+			remoteInfo = ProjectOrbital;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2AF90F1CEBEE97FCB3E2C770 /* Pods-ProjectOrbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOrbital.release.xcconfig"; path = "Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +130,8 @@
 		3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = morningstretches.mp4; sourceTree = "<group>"; };
 		3D86FB312A6A3092006B10AE /* yogamovement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yogamovement.mp4; sourceTree = "<group>"; };
 		3D9ED6A22A666A3900BAB06C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = "../New Group3/SignUpView.swift"; sourceTree = "<group>"; };
+		3DA3394A2A6AFDBC00231BCB /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		3DA3394C2A6AFEFF00231BCB /* ActivityPage2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPage2View.swift; sourceTree = "<group>"; };
 		3DB652312A6151DF0072F053 /* ProjectOrbital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOrbital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB652342A6151DF0072F053 /* ProjectOrbitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOrbitalApp.swift; sourceTree = "<group>"; };
 		3DB652382A6151E10072F053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,9 +179,25 @@
 		3DB652B92A61B29F0072F053 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
 		3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityPageView.swift; path = "../New Group/ActivityPageView.swift"; sourceTree = "<group>"; };
 		3DB652BF2A626F870072F053 /* JournalHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHistoryView.swift; sourceTree = "<group>"; };
+		3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio piano.mp4"; sourceTree = "<group>"; };
+		3DC3DF672A6DE6C700B9695F /* log in.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "log in.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DF742A6DE73D00B9695F /* Log in.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Log in.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DF812A6DE7CA00B9695F /* YourProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DF902A6DEC3000B9695F /* ProjectOrbitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectOrbitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DF922A6DEC3000B9695F /* ProjectOrbitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOrbitalTests.swift; sourceTree = "<group>"; };
+		3DC3DF992A6DEFAC00B9695F /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		3DC3DF9B2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DF9D2A6DEFAC00B9695F /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DF9F2A6DEFAC00B9695F /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DFA12A6DEFAC00B9695F /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DFA32A6DEFAC00B9695F /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3DFA52A6DEFAC00B9695F /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio calming.mp4"; sourceTree = "<group>"; };
 		3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio relief.mp4"; sourceTree = "<group>"; };
 		3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio classical.mp4"; sourceTree = "<group>"; };
+		3DF5D7AA2A6DB22100322740 /* SoothingMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingMusicView.swift; sourceTree = "<group>"; };
+		3DF5D7AC2A6DB56B00322740 /* ClassicalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicalView.swift; sourceTree = "<group>"; };
+		3DF5D7AF2A6DB66200322740 /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
 		3DF8AFD02A6A5E5000033E7C /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
 		EB64D57BB8041BF01004266C /* Pods_ProjectOrbital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectOrbital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,12 +214,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DC3DF642A6DE6C700B9695F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF712A6DE73D00B9695F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF7E2A6DE7CA00B9695F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF8D2A6DEC3000B9695F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3DF9A2A6DEFAC00B9695F /* FirebaseAnalytics.xcframework in Frameworks */,
+				3DC3DF9C2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework in Frameworks */,
+				3DC3DF9E2A6DEFAC00B9695F /* FirebaseAuth.framework in Frameworks */,
+				3DC3DFA02A6DEFAC00B9695F /* FirebaseCore.framework in Frameworks */,
+				3DC3DFA22A6DEFAC00B9695F /* FirebaseCoreInternal.framework in Frameworks */,
+				3DC3DFA42A6DEFAC00B9695F /* FirebaseFirestore.framework in Frameworks */,
+				3DC3DFA62A6DEFAC00B9695F /* FirebaseInstallations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3D424CDC2A68CC0A00DD3117 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3394C2A6AFEFF00231BCB /* ActivityPage2View.swift */,
 				3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */,
 			);
 			path = Activity;
@@ -210,6 +309,7 @@
 			children = (
 				3D0806A12A68DF90007CDA04 /* Fonts */,
 				3DB652332A6151DF0072F053 /* ProjectOrbital */,
+				3DC3DF912A6DEC3000B9695F /* ProjectOrbitalTests */,
 				3DB652322A6151DF0072F053 /* Products */,
 				3DB652642A6152440072F053 /* Frameworks */,
 				65FE79A453EFCD194CC0AD5E /* Pods */,
@@ -220,6 +320,10 @@
 			isa = PBXGroup;
 			children = (
 				3DB652312A6151DF0072F053 /* ProjectOrbital.app */,
+				3DC3DF672A6DE6C700B9695F /* log in.xctest */,
+				3DC3DF742A6DE73D00B9695F /* Log in.xctest */,
+				3DC3DF812A6DE7CA00B9695F /* YourProjectTests.xctest */,
+				3DC3DF902A6DEC3000B9695F /* ProjectOrbitalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */,
+				3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */,
 				3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */,
 				3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */,
 				3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */,
@@ -280,6 +385,13 @@
 		3DB652642A6152440072F053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DC3DF992A6DEFAC00B9695F /* FirebaseAnalytics.xcframework */,
+				3DC3DF9B2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework */,
+				3DC3DF9D2A6DEFAC00B9695F /* FirebaseAuth.framework */,
+				3DC3DF9F2A6DEFAC00B9695F /* FirebaseCore.framework */,
+				3DC3DFA12A6DEFAC00B9695F /* FirebaseCoreInternal.framework */,
+				3DC3DFA32A6DEFAC00B9695F /* FirebaseFirestore.framework */,
+				3DC3DFA52A6DEFAC00B9695F /* FirebaseInstallations.framework */,
 				3DB652A42A61538F0072F053 /* ContentView.swift */,
 				3DB652652A6152440072F053 /* SwiftUI.framework */,
 				EB64D57BB8041BF01004266C /* Pods_ProjectOrbital.framework */,
@@ -359,11 +471,23 @@
 			path = "../../Project/Project/Smaller Views";
 			sourceTree = "<group>";
 		};
+		3DC3DF912A6DEC3000B9695F /* ProjectOrbitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3DF922A6DEC3000B9695F /* ProjectOrbitalTests.swift */,
+			);
+			path = ProjectOrbitalTests;
+			sourceTree = "<group>";
+		};
 		3DEC1E3C2A67E77200C769EB /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3394A2A6AFDBC00231BCB /* MusicView.swift */,
 				3DB6524C2A6151F80072F053 /* MView.swift */,
 				3DB652472A6151F80072F053 /* StudySessionsView.swift */,
+				3DF5D7AA2A6DB22100322740 /* SoothingMusicView.swift */,
+				3DF5D7AC2A6DB56B00322740 /* ClassicalView.swift */,
+				3DF5D7AF2A6DB66200322740 /* PianoView.swift */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -403,6 +527,80 @@
 			productReference = 3DB652312A6151DF0072F053 /* ProjectOrbital.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3DC3DF662A6DE6C700B9695F /* log in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3DF6D2A6DE6C700B9695F /* Build configuration list for PBXNativeTarget "log in" */;
+			buildPhases = (
+				3DC3DF632A6DE6C700B9695F /* Sources */,
+				3DC3DF642A6DE6C700B9695F /* Frameworks */,
+				3DC3DF652A6DE6C700B9695F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3DF6C2A6DE6C700B9695F /* PBXTargetDependency */,
+			);
+			name = "log in";
+			productName = "log in";
+			productReference = 3DC3DF672A6DE6C700B9695F /* log in.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC3DF732A6DE73D00B9695F /* Log in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3DF7A2A6DE73E00B9695F /* Build configuration list for PBXNativeTarget "Log in" */;
+			buildPhases = (
+				3DC3DF702A6DE73D00B9695F /* Sources */,
+				3DC3DF712A6DE73D00B9695F /* Frameworks */,
+				3DC3DF722A6DE73D00B9695F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3DF792A6DE73E00B9695F /* PBXTargetDependency */,
+			);
+			name = "Log in";
+			productName = "Log in";
+			productReference = 3DC3DF742A6DE73D00B9695F /* Log in.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC3DF802A6DE7CA00B9695F /* YourProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3DF872A6DE7CA00B9695F /* Build configuration list for PBXNativeTarget "YourProjectTests" */;
+			buildPhases = (
+				3DC3DF7D2A6DE7CA00B9695F /* Sources */,
+				3DC3DF7E2A6DE7CA00B9695F /* Frameworks */,
+				3DC3DF7F2A6DE7CA00B9695F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3DF862A6DE7CA00B9695F /* PBXTargetDependency */,
+			);
+			name = YourProjectTests;
+			productName = YourProjectTests;
+			productReference = 3DC3DF812A6DE7CA00B9695F /* YourProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC3DF8F2A6DEC3000B9695F /* ProjectOrbitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3DF962A6DEC3000B9695F /* Build configuration list for PBXNativeTarget "ProjectOrbitalTests" */;
+			buildPhases = (
+				3DC3DF8C2A6DEC3000B9695F /* Sources */,
+				3DC3DF8D2A6DEC3000B9695F /* Frameworks */,
+				3DC3DF8E2A6DEC3000B9695F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3DFA82A6DF48400B9695F /* PBXTargetDependency */,
+				3DC3DFAA2A6DF48400B9695F /* PBXTargetDependency */,
+				3DC3DF952A6DEC3000B9695F /* PBXTargetDependency */,
+			);
+			name = ProjectOrbitalTests;
+			productName = ProjectOrbitalTests;
+			productReference = 3DC3DF902A6DEC3000B9695F /* ProjectOrbitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -415,6 +613,22 @@
 				TargetAttributes = {
 					3DB652302A6151DF0072F053 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					3DC3DF662A6DE6C700B9695F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3DB652302A6151DF0072F053;
+					};
+					3DC3DF732A6DE73D00B9695F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3DB652302A6151DF0072F053;
+					};
+					3DC3DF802A6DE7CA00B9695F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3DB652302A6151DF0072F053;
+					};
+					3DC3DF8F2A6DEC3000B9695F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3DB652302A6151DF0072F053;
 					};
 				};
 			};
@@ -436,6 +650,10 @@
 			projectRoot = "";
 			targets = (
 				3DB652302A6151DF0072F053 /* ProjectOrbital */,
+				3DC3DF662A6DE6C700B9695F /* log in */,
+				3DC3DF732A6DE73D00B9695F /* Log in */,
+				3DC3DF802A6DE7CA00B9695F /* YourProjectTests */,
+				3DC3DF8F2A6DEC3000B9695F /* ProjectOrbitalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -446,6 +664,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D86FB2E2A6A3046006B10AE /* breathingexercise.mp4 in Resources */,
+				3DB7FEFF2A6DA3C900BD02D6 /* audio piano.mp4 in Resources */,
 				3D5EB8022A669EFB0081FBE7 /* GoogleService-Info.plist in Resources */,
 				3DEC1E3B2A67E73200C769EB /* audio calming.mp4 in Resources */,
 				3DB6523C2A6151E10072F053 /* Preview Assets.xcassets in Resources */,
@@ -463,6 +682,34 @@
 				3DB652862A6152A90072F053 /* icons.riv in Resources */,
 				3DB652832A6152A90072F053 /* menu_button.riv in Resources */,
 				3DB652852A6152A90072F053 /* button.riv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF652A6DE6C700B9695F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF722A6DE73D00B9695F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF7F2A6DE7CA00B9695F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF8E2A6DEC3000B9695F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,15 +767,18 @@
 				3DB652542A6151F90072F053 /* EditProfileView.swift in Sources */,
 				3DB652752A6152A30072F053 /* Extensions.swift in Sources */,
 				3DB652982A6152D30072F053 /* SideMenu.swift in Sources */,
+				3DF5D7AB2A6DB22100322740 /* SoothingMusicView.swift in Sources */,
 				3DB652B42A61B0910072F053 /* ChatView.swift in Sources */,
 				3DB6525E2A6151F90072F053 /* OnboardingView.swift in Sources */,
 				3DB652A22A6153470072F053 /* Music.swift in Sources */,
 				3DB652902A6152CE0072F053 /* MenuRow.swift in Sources */,
 				3DB652772A6152A30072F053 /* CustomFont.swift in Sources */,
+				3DA3394B2A6AFDBC00231BCB /* MusicView.swift in Sources */,
 				3DB6528F2A6152CE0072F053 /* MusicSectionCard.swift in Sources */,
 				3DF8AFD12A6A5E5000033E7C /* HomeView2.swift in Sources */,
 				3DB6529F2A6153470072F053 /* ActivitiesSection.swift in Sources */,
 				3DB652762A6152A30072F053 /* CustomTextField.swift in Sources */,
+				3DF5D7AD2A6DB56B00322740 /* ClassicalView.swift in Sources */,
 				3DB652A02A6153470072F053 /* Course.swift in Sources */,
 				3D081A3D2A67B2B000D91515 /* AppDelegate.swift in Sources */,
 				3DB652602A6151F90072F053 /* MoodAnalysisView.swift in Sources */,
@@ -546,9 +796,11 @@
 				3DB652BE2A61B2D40072F053 /* ActivityPageView.swift in Sources */,
 				3DB652AE2A6153F70072F053 /* ManagingAnxietyView.swift in Sources */,
 				3DB652A92A6153B80072F053 /* ContentView.swift in Sources */,
+				3DF5D7B02A6DB66200322740 /* PianoView.swift in Sources */,
 				3DB652A32A6153470072F053 /* MusicSection.swift in Sources */,
 				3DB652C02A626F880072F053 /* JournalHistoryView.swift in Sources */,
 				3DB652572A6151F90072F053 /* HomeView.swift in Sources */,
+				3DA3394D2A6AFEFF00231BCB /* ActivityPage2View.swift in Sources */,
 				3DB652962A6152D30072F053 /* TabBar.swift in Sources */,
 				3DB6525A2A6151F90072F053 /* SignInView.swift in Sources */,
 				3DB6525D2A6151F90072F053 /* MoodTrackerView.swift in Sources */,
@@ -558,7 +810,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DC3DF632A6DE6C700B9695F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF702A6DE73D00B9695F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF7D2A6DE7CA00B9695F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3DF8C2A6DEC3000B9695F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3DF932A6DEC3000B9695F /* ProjectOrbitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC3DF6C2A6DE6C700B9695F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
+			targetProxy = 3DC3DF6B2A6DE6C700B9695F /* PBXContainerItemProxy */;
+		};
+		3DC3DF792A6DE73E00B9695F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
+			targetProxy = 3DC3DF782A6DE73E00B9695F /* PBXContainerItemProxy */;
+		};
+		3DC3DF862A6DE7CA00B9695F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
+			targetProxy = 3DC3DF852A6DE7CA00B9695F /* PBXContainerItemProxy */;
+		};
+		3DC3DF952A6DEC3000B9695F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
+			targetProxy = 3DC3DF942A6DEC3000B9695F /* PBXContainerItemProxy */;
+		};
+		3DC3DFA82A6DF48400B9695F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3DC3DFA72A6DF48400B9695F /* RiveRuntime */;
+		};
+		3DC3DFAA2A6DF48400B9695F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3DC3DFA92A6DF48400B9695F /* SwiftUICharts */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3DB6523D2A6151E10072F053 /* Debug */ = {
@@ -735,6 +1047,150 @@
 			};
 			name = Release;
 		};
+		3DC3DF6E2A6DE6C700B9695F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.log-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Debug;
+		};
+		3DC3DF6F2A6DE6C700B9695F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.log-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Release;
+		};
+		3DC3DF7B2A6DE73E00B9695F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.Log-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Debug;
+		};
+		3DC3DF7C2A6DE73E00B9695F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.Log-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Release;
+		};
+		3DC3DF882A6DE7CA00B9695F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.YourProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Debug;
+		};
+		3DC3DF892A6DE7CA00B9695F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.YourProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Release;
+		};
+		3DC3DF972A6DEC3000B9695F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.ProjectOrbitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Debug;
+		};
+		3DC3DF982A6DEC3000B9695F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V53GKTCFYA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.ProjectOrbitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -752,6 +1208,42 @@
 			buildConfigurations = (
 				3DB652402A6151E10072F053 /* Debug */,
 				3DB652412A6151E10072F053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3DF6D2A6DE6C700B9695F /* Build configuration list for PBXNativeTarget "log in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3DF6E2A6DE6C700B9695F /* Debug */,
+				3DC3DF6F2A6DE6C700B9695F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3DF7A2A6DE73E00B9695F /* Build configuration list for PBXNativeTarget "Log in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3DF7B2A6DE73E00B9695F /* Debug */,
+				3DC3DF7C2A6DE73E00B9695F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3DF872A6DE7CA00B9695F /* Build configuration list for PBXNativeTarget "YourProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3DF882A6DE7CA00B9695F /* Debug */,
+				3DC3DF892A6DE7CA00B9695F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3DF962A6DEC3000B9695F /* Build configuration list for PBXNativeTarget "ProjectOrbitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3DF972A6DEC3000B9695F /* Debug */,
+				3DC3DF982A6DEC3000B9695F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,6 +1276,16 @@
 			productName = RiveRuntime;
 		};
 		3DB652682A6152670072F053 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB652672A6152670072F053 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		3DC3DFA72A6DF48400B9695F /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB652612A61521C0072F053 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+		3DC3DFA92A6DF48400B9695F /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DB652672A6152670072F053 /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
