@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D0806A22A68DF90007CDA04 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 3D0806A12A68DF90007CDA04 /* Fonts */; };
 		3D0806A62A68E40E007CDA04 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0806A52A68E40E007CDA04 /* ImagePicker.swift */; };
 		3D081A3D2A67B2B000D91515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D081A3C2A67B2B000D91515 /* AppDelegate.swift */; };
+		3D541B762A7FEFFF000AD79D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D541B752A7FEFFF000AD79D /* ProgressBar.swift */; };
+		3D541B782A7FFE8B000AD79D /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D541B772A7FFE8B000AD79D /* RemindersView.swift */; };
+		3D541B7A2A800029000AD79D /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D541B792A800029000AD79D /* AddReminderView.swift */; };
 		3D5EB8022A669EFB0081FBE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5EB8012A669EFB0081FBE7 /* GoogleService-Info.plist */; };
 		3D86FB242A68F85F006B10AE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86FB232A68F85E006B10AE /* ForgotPasswordView.swift */; };
-		3D86FB272A690048006B10AE /* JournallingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86FB262A690048006B10AE /* JournallingParentView.swift */; };
 		3D86FB2C2A6A2BC4006B10AE /* meditationvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */; };
 		3D86FB2E2A6A3046006B10AE /* breathingexercise.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */; };
 		3D86FB302A6A3073006B10AE /* morningstretches.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */; };
@@ -29,7 +30,6 @@
 		3DB652562A6151F90072F053 /* StudySessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652472A6151F80072F053 /* StudySessionsView.swift */; };
 		3DB652572A6151F90072F053 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652482A6151F80072F053 /* HomeView.swift */; };
 		3DB6525A2A6151F90072F053 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524B2A6151F80072F053 /* SignInView.swift */; };
-		3DB6525B2A6151F90072F053 /* MView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524C2A6151F80072F053 /* MView.swift */; };
 		3DB6525D2A6151F90072F053 /* MoodTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524E2A6151F80072F053 /* MoodTrackerView.swift */; };
 		3DB6525E2A6151F90072F053 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6524F2A6151F80072F053 /* OnboardingView.swift */; };
 		3DB652602A6151F90072F053 /* MoodAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652512A6151F80072F053 /* MoodAnalysisView.swift */; };
@@ -67,7 +67,6 @@
 		3DB652BE2A61B2D40072F053 /* ActivityPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */; };
 		3DB652C02A626F880072F053 /* JournalHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652BF2A626F870072F053 /* JournalHistoryView.swift */; };
 		3DB7FEFF2A6DA3C900BD02D6 /* audio piano.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */; };
-		3DC3DF932A6DEC3000B9695F /* ProjectOrbitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3DF922A6DEC3000B9695F /* ProjectOrbitalTests.swift */; };
 		3DC3DF9A2A6DEFAC00B9695F /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF992A6DEFAC00B9695F /* FirebaseAnalytics.xcframework */; };
 		3DC3DF9C2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF9B2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework */; };
 		3DC3DF9E2A6DEFAC00B9695F /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DF9D2A6DEFAC00B9695F /* FirebaseAuth.framework */; };
@@ -75,6 +74,13 @@
 		3DC3DFA22A6DEFAC00B9695F /* FirebaseCoreInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DFA12A6DEFAC00B9695F /* FirebaseCoreInternal.framework */; };
 		3DC3DFA42A6DEFAC00B9695F /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DFA32A6DEFAC00B9695F /* FirebaseFirestore.framework */; };
 		3DC3DFA62A6DEFAC00B9695F /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC3DFA52A6DEFAC00B9695F /* FirebaseInstallations.framework */; };
+		3DD1C4FE2A7A335D006288AD /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1C4FD2A7A335D006288AD /* Poppins */; };
+		3DD1C5012A7A3ECD006288AD /* affirmations.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1C5002A7A3ECD006288AD /* affirmations.mp4 */; };
+		3DD1C5032A7A3ED8006288AD /* mentalreset.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1C5022A7A3ED8006288AD /* mentalreset.mp4 */; };
+		3DD1C5052A7ABFF5006288AD /* morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1C5042A7ABFF5006288AD /* morning.mp3 */; };
+		3DD1C5072A7AC01A006288AD /* nighttime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1C5062A7AC019006288AD /* nighttime.mp3 */; };
+		3DD1C5092A7B40C4006288AD /* MorningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1C5082A7B40C4006288AD /* MorningView.swift */; };
+		3DD1C50B2A7B40CD006288AD /* NighttimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1C50A2A7B40CD006288AD /* NighttimeView.swift */; };
 		3DEC1E3B2A67E73200C769EB /* audio calming.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */; };
 		3DEC1E3F2A68470C00C769EB /* audio relief.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */; };
 		3DEC1E402A68470C00C769EB /* audio classical.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */; };
@@ -86,27 +92,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3DC3DF6B2A6DE6C700B9695F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3DB652302A6151DF0072F053;
-			remoteInfo = ProjectOrbital;
-		};
-		3DC3DF782A6DE73E00B9695F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3DB652302A6151DF0072F053;
-			remoteInfo = ProjectOrbital;
-		};
-		3DC3DF852A6DE7CA00B9695F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3DB652302A6151DF0072F053;
-			remoteInfo = ProjectOrbital;
-		};
 		3DC3DF942A6DEC3000B9695F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3DB652292A6151DF0072F053 /* Project object */;
@@ -119,12 +104,13 @@
 /* Begin PBXFileReference section */
 		2AF90F1CEBEE97FCB3E2C770 /* Pods-ProjectOrbital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOrbital.release.xcconfig"; path = "Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital.release.xcconfig"; sourceTree = "<group>"; };
 		307BFAE0180B0C534B60698B /* Pods-ProjectOrbital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOrbital.debug.xcconfig"; path = "Target Support Files/Pods-ProjectOrbital/Pods-ProjectOrbital.debug.xcconfig"; sourceTree = "<group>"; };
-		3D0806A12A68DF90007CDA04 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ProjectOrbital/Fonts; sourceTree = "<group>"; };
 		3D0806A52A68E40E007CDA04 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3D081A3C2A67B2B000D91515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D541B752A7FEFFF000AD79D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		3D541B772A7FFE8B000AD79D /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		3D541B792A800029000AD79D /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		3D5EB8012A669EFB0081FBE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3D86FB232A68F85E006B10AE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
-		3D86FB262A690048006B10AE /* JournallingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournallingParentView.swift; sourceTree = "<group>"; };
 		3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meditationvideo.mp4; sourceTree = "<group>"; };
 		3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = breathingexercise.mp4; sourceTree = "<group>"; };
 		3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = morningstretches.mp4; sourceTree = "<group>"; };
@@ -142,7 +128,6 @@
 		3DB652472A6151F80072F053 /* StudySessionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudySessionsView.swift; sourceTree = "<group>"; };
 		3DB652482A6151F80072F053 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3DB6524B2A6151F80072F053 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = "../New Group3/SignInView.swift"; sourceTree = "<group>"; };
-		3DB6524C2A6151F80072F053 /* MView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MView.swift; path = ../MView.swift; sourceTree = "<group>"; };
 		3DB6524E2A6151F80072F053 /* MoodTrackerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodTrackerView.swift; path = ../MoodTrackerView.swift; sourceTree = "<group>"; };
 		3DB6524F2A6151F80072F053 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		3DB652512A6151F80072F053 /* MoodAnalysisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoodAnalysisView.swift; path = ../MoodAnalysisView.swift; sourceTree = "<group>"; };
@@ -180,11 +165,7 @@
 		3DB652BD2A61B2D40072F053 /* ActivityPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityPageView.swift; path = "../New Group/ActivityPageView.swift"; sourceTree = "<group>"; };
 		3DB652BF2A626F870072F053 /* JournalHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHistoryView.swift; sourceTree = "<group>"; };
 		3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio piano.mp4"; sourceTree = "<group>"; };
-		3DC3DF672A6DE6C700B9695F /* log in.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "log in.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DC3DF742A6DE73D00B9695F /* Log in.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Log in.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DC3DF812A6DE7CA00B9695F /* YourProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3DF902A6DEC3000B9695F /* ProjectOrbitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectOrbitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DC3DF922A6DEC3000B9695F /* ProjectOrbitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOrbitalTests.swift; sourceTree = "<group>"; };
 		3DC3DF992A6DEFAC00B9695F /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
 		3DC3DF9B2A6DEFAC00B9695F /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3DF9D2A6DEFAC00B9695F /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +173,13 @@
 		3DC3DFA12A6DEFAC00B9695F /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3DFA32A6DEFAC00B9695F /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3DFA52A6DEFAC00B9695F /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD1C4FD2A7A335D006288AD /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Poppins; sourceTree = "<group>"; };
+		3DD1C5002A7A3ECD006288AD /* affirmations.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = affirmations.mp4; sourceTree = "<group>"; };
+		3DD1C5022A7A3ED8006288AD /* mentalreset.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mentalreset.mp4; sourceTree = "<group>"; };
+		3DD1C5042A7ABFF5006288AD /* morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morning.mp3; sourceTree = "<group>"; };
+		3DD1C5062A7AC019006288AD /* nighttime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nighttime.mp3; sourceTree = "<group>"; };
+		3DD1C5082A7B40C4006288AD /* MorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningView.swift; sourceTree = "<group>"; };
+		3DD1C50A2A7B40CD006288AD /* NighttimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NighttimeView.swift; sourceTree = "<group>"; };
 		3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio calming.mp4"; sourceTree = "<group>"; };
 		3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio relief.mp4"; sourceTree = "<group>"; };
 		3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "audio classical.mp4"; sourceTree = "<group>"; };
@@ -211,27 +199,6 @@
 				3DB652662A6152440072F053 /* SwiftUI.framework in Frameworks */,
 				3DB652632A61521C0072F053 /* RiveRuntime in Frameworks */,
 				C1489AAF8F19B6EC53277384 /* Pods_ProjectOrbital.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF642A6DE6C700B9695F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF712A6DE73D00B9695F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF7E2A6DE7CA00B9695F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +233,6 @@
 			children = (
 				3DB652432A6151F80072F053 /* JournallingView.swift */,
 				3DB652BF2A626F870072F053 /* JournalHistoryView.swift */,
-				3D86FB262A690048006B10AE /* JournallingParentView.swift */,
 			);
 			path = Journalling;
 			sourceTree = "<group>";
@@ -307,9 +273,8 @@
 		3DB652282A6151DF0072F053 = {
 			isa = PBXGroup;
 			children = (
-				3D0806A12A68DF90007CDA04 /* Fonts */,
+				3DD1C4FD2A7A335D006288AD /* Poppins */,
 				3DB652332A6151DF0072F053 /* ProjectOrbital */,
-				3DC3DF912A6DEC3000B9695F /* ProjectOrbitalTests */,
 				3DB652322A6151DF0072F053 /* Products */,
 				3DB652642A6152440072F053 /* Frameworks */,
 				65FE79A453EFCD194CC0AD5E /* Pods */,
@@ -320,9 +285,6 @@
 			isa = PBXGroup;
 			children = (
 				3DB652312A6151DF0072F053 /* ProjectOrbital.app */,
-				3DC3DF672A6DE6C700B9695F /* log in.xctest */,
-				3DC3DF742A6DE73D00B9695F /* Log in.xctest */,
-				3DC3DF812A6DE7CA00B9695F /* YourProjectTests.xctest */,
 				3DC3DF902A6DEC3000B9695F /* ProjectOrbitalTests.xctest */,
 			);
 			name = Products;
@@ -331,14 +293,7 @@
 		3DB652332A6151DF0072F053 /* ProjectOrbital */ = {
 			isa = PBXGroup;
 			children = (
-				3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */,
-				3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */,
-				3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */,
-				3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */,
-				3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */,
-				3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */,
-				3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */,
-				3D86FB312A6A3092006B10AE /* yogamovement.mp4 */,
+				3DD1C4FF2A7A3E95006288AD /* video n audio */,
 				3D5EB8012A669EFB0081FBE7 /* GoogleService-Info.plist */,
 				3DB652AC2A6153F70072F053 /* Smaller Views */,
 				3DB652342A6151DF0072F053 /* ProjectOrbitalApp.swift */,
@@ -367,6 +322,8 @@
 		3DB652422A6151F80072F053 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3D541B772A7FFE8B000AD79D /* RemindersView.swift */,
+				3D541B792A800029000AD79D /* AddReminderView.swift */,
 				3DB6524F2A6151F80072F053 /* OnboardingView.swift */,
 				3D86FB2A2A699DDD006B10AE /* Sign Up */,
 				3DB652482A6151F80072F053 /* HomeView.swift */,
@@ -471,23 +428,36 @@
 			path = "../../Project/Project/Smaller Views";
 			sourceTree = "<group>";
 		};
-		3DC3DF912A6DEC3000B9695F /* ProjectOrbitalTests */ = {
+		3DD1C4FF2A7A3E95006288AD /* video n audio */ = {
 			isa = PBXGroup;
 			children = (
-				3DC3DF922A6DEC3000B9695F /* ProjectOrbitalTests.swift */,
+				3DEC1E3A2A67E73100C769EB /* audio calming.mp4 */,
+				3DB7FEFE2A6DA3C900BD02D6 /* audio piano.mp4 */,
+				3DEC1E3E2A68470C00C769EB /* audio classical.mp4 */,
+				3DD1C5042A7ABFF5006288AD /* morning.mp3 */,
+				3DD1C5062A7AC019006288AD /* nighttime.mp3 */,
+				3DEC1E3D2A68470B00C769EB /* audio relief.mp4 */,
+				3D86FB2B2A6A2BC4006B10AE /* meditationvideo.mp4 */,
+				3D86FB2F2A6A3073006B10AE /* morningstretches.mp4 */,
+				3D86FB2D2A6A3046006B10AE /* breathingexercise.mp4 */,
+				3D86FB312A6A3092006B10AE /* yogamovement.mp4 */,
+				3DD1C5002A7A3ECD006288AD /* affirmations.mp4 */,
+				3DD1C5022A7A3ED8006288AD /* mentalreset.mp4 */,
 			);
-			path = ProjectOrbitalTests;
+			path = "video n audio";
 			sourceTree = "<group>";
 		};
 		3DEC1E3C2A67E77200C769EB /* Music */ = {
 			isa = PBXGroup;
 			children = (
 				3DA3394A2A6AFDBC00231BCB /* MusicView.swift */,
-				3DB6524C2A6151F80072F053 /* MView.swift */,
+				3D541B752A7FEFFF000AD79D /* ProgressBar.swift */,
 				3DB652472A6151F80072F053 /* StudySessionsView.swift */,
 				3DF5D7AA2A6DB22100322740 /* SoothingMusicView.swift */,
 				3DF5D7AC2A6DB56B00322740 /* ClassicalView.swift */,
 				3DF5D7AF2A6DB66200322740 /* PianoView.swift */,
+				3DD1C5082A7B40C4006288AD /* MorningView.swift */,
+				3DD1C50A2A7B40CD006288AD /* NighttimeView.swift */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -527,60 +497,6 @@
 			productReference = 3DB652312A6151DF0072F053 /* ProjectOrbital.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3DC3DF662A6DE6C700B9695F /* log in */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DC3DF6D2A6DE6C700B9695F /* Build configuration list for PBXNativeTarget "log in" */;
-			buildPhases = (
-				3DC3DF632A6DE6C700B9695F /* Sources */,
-				3DC3DF642A6DE6C700B9695F /* Frameworks */,
-				3DC3DF652A6DE6C700B9695F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DC3DF6C2A6DE6C700B9695F /* PBXTargetDependency */,
-			);
-			name = "log in";
-			productName = "log in";
-			productReference = 3DC3DF672A6DE6C700B9695F /* log in.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3DC3DF732A6DE73D00B9695F /* Log in */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DC3DF7A2A6DE73E00B9695F /* Build configuration list for PBXNativeTarget "Log in" */;
-			buildPhases = (
-				3DC3DF702A6DE73D00B9695F /* Sources */,
-				3DC3DF712A6DE73D00B9695F /* Frameworks */,
-				3DC3DF722A6DE73D00B9695F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DC3DF792A6DE73E00B9695F /* PBXTargetDependency */,
-			);
-			name = "Log in";
-			productName = "Log in";
-			productReference = 3DC3DF742A6DE73D00B9695F /* Log in.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3DC3DF802A6DE7CA00B9695F /* YourProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DC3DF872A6DE7CA00B9695F /* Build configuration list for PBXNativeTarget "YourProjectTests" */;
-			buildPhases = (
-				3DC3DF7D2A6DE7CA00B9695F /* Sources */,
-				3DC3DF7E2A6DE7CA00B9695F /* Frameworks */,
-				3DC3DF7F2A6DE7CA00B9695F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DC3DF862A6DE7CA00B9695F /* PBXTargetDependency */,
-			);
-			name = YourProjectTests;
-			productName = YourProjectTests;
-			productReference = 3DC3DF812A6DE7CA00B9695F /* YourProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		3DC3DF8F2A6DEC3000B9695F /* ProjectOrbitalTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DC3DF962A6DEC3000B9695F /* Build configuration list for PBXNativeTarget "ProjectOrbitalTests" */;
@@ -614,18 +530,6 @@
 					3DB652302A6151DF0072F053 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					3DC3DF662A6DE6C700B9695F = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 3DB652302A6151DF0072F053;
-					};
-					3DC3DF732A6DE73D00B9695F = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 3DB652302A6151DF0072F053;
-					};
-					3DC3DF802A6DE7CA00B9695F = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 3DB652302A6151DF0072F053;
-					};
 					3DC3DF8F2A6DEC3000B9695F = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 3DB652302A6151DF0072F053;
@@ -644,15 +548,13 @@
 			packageReferences = (
 				3DB652612A61521C0072F053 /* XCRemoteSwiftPackageReference "rive-ios" */,
 				3DB652672A6152670072F053 /* XCRemoteSwiftPackageReference "ChartView" */,
+				3DF6EE832A6E0DFF003E3666 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 3DB652322A6151DF0072F053 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3DB652302A6151DF0072F053 /* ProjectOrbital */,
-				3DC3DF662A6DE6C700B9695F /* log in */,
-				3DC3DF732A6DE73D00B9695F /* Log in */,
-				3DC3DF802A6DE7CA00B9695F /* YourProjectTests */,
 				3DC3DF8F2A6DEC3000B9695F /* ProjectOrbitalTests */,
 			);
 		};
@@ -663,14 +565,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD1C5072A7AC01A006288AD /* nighttime.mp3 in Resources */,
 				3D86FB2E2A6A3046006B10AE /* breathingexercise.mp4 in Resources */,
 				3DB7FEFF2A6DA3C900BD02D6 /* audio piano.mp4 in Resources */,
 				3D5EB8022A669EFB0081FBE7 /* GoogleService-Info.plist in Resources */,
 				3DEC1E3B2A67E73200C769EB /* audio calming.mp4 in Resources */,
 				3DB6523C2A6151E10072F053 /* Preview Assets.xcassets in Resources */,
 				3DEC1E402A68470C00C769EB /* audio classical.mp4 in Resources */,
+				3DD1C5012A7A3ECD006288AD /* affirmations.mp4 in Resources */,
+				3DD1C5032A7A3ED8006288AD /* mentalreset.mp4 in Resources */,
 				3DB652392A6151E10072F053 /* Assets.xcassets in Resources */,
-				3D0806A22A68DF90007CDA04 /* Fonts in Resources */,
+				3DD1C5052A7ABFF5006288AD /* morning.mp3 in Resources */,
 				3DB652812A6152A90072F053 /* confetti.riv in Resources */,
 				3D86FB2C2A6A2BC4006B10AE /* meditationvideo.mp4 in Resources */,
 				3DB652842A6152A90072F053 /* shapes.riv in Resources */,
@@ -681,28 +586,8 @@
 				3DEC1E3F2A68470C00C769EB /* audio relief.mp4 in Resources */,
 				3DB652862A6152A90072F053 /* icons.riv in Resources */,
 				3DB652832A6152A90072F053 /* menu_button.riv in Resources */,
+				3DD1C4FE2A7A335D006288AD /* Poppins in Resources */,
 				3DB652852A6152A90072F053 /* button.riv in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF652A6DE6C700B9695F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF722A6DE73D00B9695F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF7F2A6DE7CA00B9695F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,7 +659,9 @@
 				3DB652902A6152CE0072F053 /* MenuRow.swift in Sources */,
 				3DB652772A6152A30072F053 /* CustomFont.swift in Sources */,
 				3DA3394B2A6AFDBC00231BCB /* MusicView.swift in Sources */,
+				3DD1C50B2A7B40CD006288AD /* NighttimeView.swift in Sources */,
 				3DB6528F2A6152CE0072F053 /* MusicSectionCard.swift in Sources */,
+				3D541B782A7FFE8B000AD79D /* RemindersView.swift in Sources */,
 				3DF8AFD12A6A5E5000033E7C /* HomeView2.swift in Sources */,
 				3DB6529F2A6153470072F053 /* ActivitiesSection.swift in Sources */,
 				3DB652762A6152A30072F053 /* CustomTextField.swift in Sources */,
@@ -782,15 +669,14 @@
 				3DB652A02A6153470072F053 /* Course.swift in Sources */,
 				3D081A3D2A67B2B000D91515 /* AppDelegate.swift in Sources */,
 				3DB652602A6151F90072F053 /* MoodAnalysisView.swift in Sources */,
-				3D86FB272A690048006B10AE /* JournallingParentView.swift in Sources */,
 				3DB652522A6151F90072F053 /* JournallingView.swift in Sources */,
 				3D86FB242A68F85F006B10AE /* ForgotPasswordView.swift in Sources */,
 				3DB652B62A61B23F0072F053 /* ResultsView.swift in Sources */,
 				3D9ED6A32A666A3900BAB06C /* SignUpView.swift in Sources */,
+				3D541B7A2A800029000AD79D /* AddReminderView.swift in Sources */,
 				3DB6528D2A6152CE0072F053 /* VCard.swift in Sources */,
 				3DB652A12A6153470072F053 /* CourseSection.swift in Sources */,
 				3DB652352A6151DF0072F053 /* ProjectOrbitalApp.swift in Sources */,
-				3DB6525B2A6151F90072F053 /* MView.swift in Sources */,
 				3DB652552A6151F90072F053 /* ProfileView.swift in Sources */,
 				3DB6528E2A6152CE0072F053 /* HCard.swift in Sources */,
 				3DB652BE2A61B2D40072F053 /* ActivityPageView.swift in Sources */,
@@ -799,8 +685,10 @@
 				3DF5D7B02A6DB66200322740 /* PianoView.swift in Sources */,
 				3DB652A32A6153470072F053 /* MusicSection.swift in Sources */,
 				3DB652C02A626F880072F053 /* JournalHistoryView.swift in Sources */,
+				3DD1C5092A7B40C4006288AD /* MorningView.swift in Sources */,
 				3DB652572A6151F90072F053 /* HomeView.swift in Sources */,
 				3DA3394D2A6AFEFF00231BCB /* ActivityPage2View.swift in Sources */,
+				3D541B762A7FEFFF000AD79D /* ProgressBar.swift in Sources */,
 				3DB652962A6152D30072F053 /* TabBar.swift in Sources */,
 				3DB6525A2A6151F90072F053 /* SignInView.swift in Sources */,
 				3DB6525D2A6151F90072F053 /* MoodTrackerView.swift in Sources */,
@@ -810,53 +698,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DC3DF632A6DE6C700B9695F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF702A6DE73D00B9695F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DC3DF7D2A6DE7CA00B9695F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DC3DF8C2A6DEC3000B9695F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC3DF932A6DEC3000B9695F /* ProjectOrbitalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DC3DF6C2A6DE6C700B9695F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
-			targetProxy = 3DC3DF6B2A6DE6C700B9695F /* PBXContainerItemProxy */;
-		};
-		3DC3DF792A6DE73E00B9695F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
-			targetProxy = 3DC3DF782A6DE73E00B9695F /* PBXContainerItemProxy */;
-		};
-		3DC3DF862A6DE7CA00B9695F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
-			targetProxy = 3DC3DF852A6DE7CA00B9695F /* PBXContainerItemProxy */;
-		};
 		3DC3DF952A6DEC3000B9695F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3DB652302A6151DF0072F053 /* ProjectOrbital */;
@@ -1012,6 +863,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.ProjectOrbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1042,116 +894,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.ProjectOrbital;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3DC3DF6E2A6DE6C700B9695F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V53GKTCFYA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.log-in";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
-			};
-			name = Debug;
-		};
-		3DC3DF6F2A6DE6C700B9695F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V53GKTCFYA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.log-in";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
-			};
-			name = Release;
-		};
-		3DC3DF7B2A6DE73E00B9695F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V53GKTCFYA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.Log-in";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
-			};
-			name = Debug;
-		};
-		3DC3DF7C2A6DE73E00B9695F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V53GKTCFYA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OrbitalProject.Log-in";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
-			};
-			name = Release;
-		};
-		3DC3DF882A6DE7CA00B9695F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V53GKTCFYA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.YourProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
-			};
-			name = Debug;
-		};
-		3DC3DF892A6DE7CA00B9695F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V53GKTCFYA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OrbitalProject.YourProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOrbital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectOrbital";
 			};
 			name = Release;
 		};
@@ -1212,33 +957,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DC3DF6D2A6DE6C700B9695F /* Build configuration list for PBXNativeTarget "log in" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DC3DF6E2A6DE6C700B9695F /* Debug */,
-				3DC3DF6F2A6DE6C700B9695F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3DC3DF7A2A6DE73E00B9695F /* Build configuration list for PBXNativeTarget "Log in" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DC3DF7B2A6DE73E00B9695F /* Debug */,
-				3DC3DF7C2A6DE73E00B9695F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3DC3DF872A6DE7CA00B9695F /* Build configuration list for PBXNativeTarget "YourProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DC3DF882A6DE7CA00B9695F /* Debug */,
-				3DC3DF892A6DE7CA00B9695F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3DC3DF962A6DEC3000B9695F /* Build configuration list for PBXNativeTarget "ProjectOrbitalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1265,6 +983,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
+			};
+		};
+		3DF6EE832A6E0DFF003E3666 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -8,9 +8,9 @@ target 'ProjectOrbital' do
   # Pods for ProjectOrbital
 
 pod 'Firebase'
-pod 'Firebase/Auth'
 pod 'Firebase/Core'
-pod 'Firebase/Firestore'
 pod 'Firebase/AppDistribution'
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
 
 end
