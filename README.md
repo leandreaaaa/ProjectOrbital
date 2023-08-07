@@ -20,8 +20,8 @@ Apollo 11
 
 ## Links to resources
 - Milestone 3: [Google Docs](https://docs.google.com/document/d/1jcKI_sMhuZCCF0r06glqSu3sAmZaY6Wu8afR5ReSeZM/edit?usp=sharing)
-- Project Poster: [Google Drive](https://drive.google.com/file/d/14ahgQY0u5My9s3ueFYAgAQNTnVLSAQql/view?usp=sharing)
-- Project Video: [Google Drive](https://drive.google.com/file/d/1I_mge3i-cLPVkPMEUaHqOfPmYFixK25y/view)
+- Project Poster: [Google Drive](https://drive.google.com/file/d/1ewSx5bm0Rf-VnOviT4PpCfW57PpiC9QC/view?usp=sharing)
+- Project Video: [Google Drive](https://drive.google.com/file/d/1Qr9Syn0WBYGG-vbPjjuqn1vM-sXGRCON/view?usp=sharing)
 
 ## Motivation
 Our motivation for embarking on this project stems from a shared desire to provide students with a safe and accessible space to prioritize their well-being. We envision our app as a sanctuary of solace, offering practical tools and resources to promote relaxation, mindfulness, and emotional resilience. As we embark on this project, we are committed to creating an intuitive and user-friendly app that resonates with students and encourages them to prioritize their mental health. 
