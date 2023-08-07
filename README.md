@@ -75,9 +75,10 @@ Once ProjectOrbital is successfully built and running on your iOS device, test i
 
 ![Screenshot 2023-08-07 at 2 24 31 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/729bb792-7eb9-452f-853c-56cace5ec8f7)
 ![Screenshot 2023-08-07 at 2 26 20 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/7dd6cccb-7438-4253-8fea-20fcc616c371)
-![Screenshot 2023-08-07 at 2 23 03 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/e5d414fc-f319-40ff-9b34-09bbfdf1aaec)
+
 ![Screenshot 2023-08-07 at 2 25 48 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/e16d9c29-9a64-4790-8ab2-497626f0b455)
 
 ![Screenshot 2023-08-07 at 2 24 03 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/58ea525f-1b39-470f-a5e1-a60ac52a8362)
+![Screenshot 2023-08-07 at 2 23 03 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/e5d414fc-f319-40ff-9b34-09bbfdf1aaec)
 ![Screenshot 2023-08-07 at 2 23 32 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/6bc4abc1-3d1a-4d5c-8704-09e76a8c8e3d)
 ![Screenshot 2023-08-07 at 2 23 47 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/ee07dec4-bada-46fd-be94-f2c97bdb6f56)
