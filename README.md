@@ -71,9 +71,6 @@ Once ProjectOrbital is successfully built and running on your iOS device, test i
 ## Sample Screenshots:
 ![Screenshot 2023-08-07 at 2 21 10 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d)
 ![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20)
-![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/c17f119a-7744-42d3-9f18-4a18c940a64c)
-![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/56b1e5e7-b67f-495e-8cb3-6a6f69759af4)
-
 ![Screenshot 2023-08-07 at 2 22 28 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/bf9afe55-08d8-44c9-a957-b84a0a4b49ea)
 
 ![Screenshot 2023-08-07 at 2 24 31 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/729bb792-7eb9-452f-853c-56cace5ec8f7)
