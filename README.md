@@ -1,4 +1,4 @@
-<div align="center">
+<img width="290" alt="Screenshot 2023-08-06 at 11 00 29 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/1bfe0cc3-c578-4afe-8c41-1de76d510226"><img width="323" alt="Screenshot 2023-08-06 at 10 57 22 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/4a5b34e1-d2e2-4eb2-bed1-8dea61de836d"><div align="center">
     <h1>NUS Orbital 2023 (Team HappyTown)</h1>
 </div>
 
@@ -70,6 +70,20 @@ Once ProjectOrbital is successfully built and running on your iOS device, test i
 - Feature Functionality
   
 ## Sample Screenshots:
+
+<img width="323" alt="Screenshot 2023-08-06 at 10 57 22 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/af074049-3cb5-4e82-a447-1d8ac672a7fd">
+<img width="327" alt="Screenshot 2023-08-06 at 10 57 48 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/2cb72929-804e-4ba5-8950-b1c1a0710cce">
+
+![Uploading Screenshot 202<img width="289" alt="Screenshot 2023-08-06 at 11 01 02 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/dacead06-0b91-46b2-925c-664af83c05ba">
+3-08-06 at 11.00.29 PM.png…]()<img width="289" alt="Screenshot 2023-08-06 at 11 26 15 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/b5c24022-dd93-4ac1-8778-fec9a7d05e28">
+
+<img width="286" alt="Screenshot 2023-08-06 at 11 46 35 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/bd19f0c4-4544-46b6-8b95-34036a8e9931">
+<img width="290" alt="Screenshot 2023-08-06 at 11 56 25 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/f4529cf3-1cd6-4da5-8629-49cec7b6844f">
+<img width="289" alt="Screenshot 2023-08-06 at 11 49 42 PM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/69e71d20-1ed0-452e-8cf6-f1797a1e0862">
+<img width="343" alt="Screenshot 2023-08-07 at 12 03 09 AM" src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/0f08763a-d9f7-4bf5-b96d-b6909af78e3f">
+
+
+
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/0c57dcf4-a523-4238-8bdc-35cc2cc2e16d" alt="photo_6192960851191903648_y" width="100">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/fa5dd78d-1cc6-40a0-a161-dbdeab537729" alt="photo_6192960851191903662_x" width="100">
 <img src="https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/8dd963ed-d818-468d-9d4a-b0c18a25122f" alt="photo_6192960851191903649_y" width="100">
