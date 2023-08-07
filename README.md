@@ -1,4 +1,4 @@
-![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/56b1e5e7-b67f-495e-8cb3-6a6f69759af4)![Screenshot 2023-08-07 at 2 26 20 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/04a56ad0-3917-42e7-9897-659d7c43ec3e)<h1>NUS Orbital 2023 (Team HappyTown)</h1>
+<h1>NUS Orbital 2023 (Team HappyTown)</h1>
 </div>
 
 <div align="center">
@@ -69,11 +69,23 @@ Once ProjectOrbital is successfully built and running on your iOS device, test i
 - Feature Functionality
   
 ## Sample Screenshots:
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d.png" alt="Image 1" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20.png" alt="Image 2" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d.png" alt="Image 1" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20.png" alt="Image 2" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d.png" alt="Image 1" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20.png" alt="Image 2" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d.png" alt="Image 1" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20.png" alt="Image 2" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d.png" alt="Image 1" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20.png" alt="Image 2" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d.png" alt="Image 1" width="100">
+<img src="https://github.com/leandreaaaa/ProjectOrbital/raw/main/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20.png" alt="Image 2" width="100">
 
 ![Screenshot 2023-08-07 at 2 21 10 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/5cf0ed44-9f67-4b71-99fd-d6bd7a8be91d)
 ![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/9dee2f72-c476-48fb-882d-6c94f20b2a20)
 ![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/c17f119a-7744-42d3-9f18-4a18c940a64c)
-
+![Screenshot 2023-08-07 at 2 21 59 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/56b1e5e7-b67f-495e-8cb3-6a6f69759af4)
 
 ![Screenshot 2023-08-07 at 2 22 28 PM](https://github.com/leandreaaaa/ProjectOrbital/assets/122248665/bf9afe55-08d8-44c9-a957-b84a0a4b49ea)
 
